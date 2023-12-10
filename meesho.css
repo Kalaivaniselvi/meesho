@@ -1,0 +1,231 @@
+#meesho1{
+    height: 75px;
+    width: 100%;
+    display: flex;
+
+}
+#meesho1 li{
+    list-style-type: none;
+    width:55px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: -25px;
+    padding: 35px;
+    border-left: 2px solid black;
+    height: 20px;
+    
+}
+#meesho1 h1{
+    margin-left: 100px;
+    font-size: 40px;
+    color: rgb(33, 11, 33);
+    margin-top: 15px;
+}
+#meesho1 input{
+    height: 40px;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: black 3px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fa-magnifying-glass{
+    margin-left: -30px;
+    margin-top:30px ;
+}
+#meesho2{
+    height: 60px;
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+#meesho2 li{
+      list-style-type: none;
+      margin-top: -15px;
+      padding: 30px;
+      width: 120px;
+}
+h1{
+    font-size: 18px;
+}
+#meesho3{
+    display: none;
+}
+#meesho2 li:nth-child(1):hover #meesho3{
+    border: 3px solid black;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 5px;
+    display: block;
+    width: 700px;
+    height: 300px;
+    margin-top: 30px;
+    background-color: aliceblue;
+
+}
+#head3{
+    margin-left: 200px;
+    margin-top:-200px;
+}
+#head4{
+    margin-left: 350px;
+    margin-top: -140px;
+}
+#head5{
+    margin-left: 530px;
+    margin-top: -138px;
+}
+a{
+    text-decoration: none;
+    text-decoration-color: black;
+}
+#head6 img{
+      height: 500px;
+      width: 100%;
+      position:relative;
+      z-index: -3;
+}
+#box1{
+    height: 600px;
+    width: 900px;
+    background: linear-gradient(lightpink,white,rgb(95, 170, 185));
+    margin-left: 310px;
+}
+#box2 img{
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+#box2{
+    display: grid;
+    grid-template-columns: 180px 180px ;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+}
+#box2 p{
+    margin-left: 40px;
+}
+#box3{
+    display: grid;
+    grid-template-columns: 180px 180px ;
+    background-color: white;
+    height: 300px;
+    width: 350px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+#box3 img{
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+#box3 p{
+    margin-left: 40px;
+}
+#box5{
+    background: linear-gradient(orange,white,orange);
+    height: 500px;
+    width: 800px;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+#box5 p{
+    font-size: 50px;
+    font-weight: bold;
+}
+#box6 img{
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+}
+#box6{
+    margin-left: 300px;
+    display: grid;
+    grid-template-rows: 180px 180px;
+    grid-template-columns: 180px 180px 180px;
+    background-color: white;
+    height: 300px;
+    width: 550px;}
+#box6 p{
+    font-size: 20px;
+}
+#box10 img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 40px;
+}
+#box10{
+    margin-left: -330px;
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px 250px 250px;
+}
+#footer{
+     border-top: 2px solid black;
+     height: 300px;
+     width: 1400px;
+     margin-left: -300px;
+     padding: 10px;
+     margin-top: 80px;
+}
+#f1 p{
+    font-size: 13px;
+}
+#f1 img{
+    width: 400px;
+    height: 100px;
+}
+#f1{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#f2{
+    margin-left: 490px;
+    margin-top: -165px;
+}
+#f5 li{ 
+    list-style-type: none;
+    font-size: 18px;
+    padding: 5px;
+}
+#f5{
+    margin-left: 900px;
+    margin-top: -170px;
+}
+#f6 p{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#f6{
+    margin-left: 1150px;
+    margin-top: -140px;
+}
+#form{
+    margin-left: 400px;
+    background:linear-gradient(rgba(24, 230, 220, 0.897),white,rgb(254, 254, 5));
+    height: 700px;
+    width: 700px;
+    animation-name:example;
+    animation-duration: 30s;
+}
+@keyframes example{
+    0%{background: linear-gradient(rgb(19, 204, 233),white,rgb(242, 255, 0));}
+    20%{background: linear-gradient(pink,white,rgb(0, 255, 102));}
+    40%{background: linear-gradient(pink,white,rgb(255, 98, 0));}
+    80%{background: linear-gradient(pink,white,rgb(255, 0, 17));}
+
+}
+
+
+
+#form2{
+     margin-left: 200px;
+     padding: 20px;
+}
